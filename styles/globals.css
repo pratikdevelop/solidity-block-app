@@ -1,26 +1,25 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Alef&family=Bebas+Neue&family=Inconsolata:wght@500&family=Oleo+Script+Swash+Caps&family=Roboto:wght@400;500;900&family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef&family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,700;1,600;1,700&family=Inconsolata:wght@500&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&family=Roboto:wght@400;500;900&family=Secular+One&family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Lora:ital,wght@1,400;1,500&family=Roboto:wght@100;500&display=swap'); 
 
 * {
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+body {
+    color: black ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
 }
